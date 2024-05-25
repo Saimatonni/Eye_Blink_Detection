@@ -1,0 +1,46 @@
+.container-wrapper2 {
+    margin: 0;
+    padding: 0;
+    font-family: Arial, sans-serif;
+    background: linear-gradient(-45deg,  #3CB371);
+    background-size: 400% 400%;
+    animation: gradient-animation 15s ease infinite;
+  }
+
+  .page-heading2 {
+    text-align: center;
+    /* margin-top: 20px; */
+    padding-top: 2%;
+    font-size: 2rem;
+    color: #5f0610;
+    text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.2);
+  }
+  
+  .camera-column2 {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 80vh;
+  }
+  
+  
+  @media (max-width: 768px) {
+    .second-column {
+      margin-left: 0;
+      margin-top: 60px;
+      height: 400px;
+    }
+  }
+
+  @keyframes gradient-animation {
+    0% {
+      background-position: 0% 50%;
+    }
+    50% {
+      background-position: 100% 50%;
+    }
+    100% {
+      background-position: 0% 50%;
+    }
+  }
+

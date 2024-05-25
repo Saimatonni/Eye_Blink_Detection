@@ -1,0 +1,47 @@
+.container-wrapper {
+  margin: 0;
+  padding: 0;
+  font-family: Arial, sans-serif;
+  background: linear-gradient(-45deg, #FFB6C1, #87CEEB, #deae6e, #3CB371);
+  background-size: 400% 400%;
+  animation: gradient-animation 15s ease infinite;
+}
+
+
+
+.page-heading {
+  text-align: center;
+  /* margin-top: 20px; */
+  padding-top: 5%;
+  font-size: 2rem;
+  color: #065F19;
+  text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.2);
+}
+
+.camera-column {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  min-height: 85vh;
+}
+
+
+@media (max-width: 768px) {
+  .second-column {
+    margin-left: 0;
+    margin-top: 60px;
+    height: 400px;
+  }
+}
+
+@keyframes gradient-animation {
+  0% {
+    background-position: 0% 50%;
+  }
+  50% {
+    background-position: 100% 50%;
+  }
+  100% {
+    background-position: 0% 50%;
+  }
+}

@@ -1,0 +1,52 @@
+
+.login-con {
+  background: url('../assets/images/login_bg.png') center center/cover no-repeat;
+  background-size: 100% 100%;
+   height: 89vh;
+   display: flex;
+   align-items: center;
+   /* position: relative; */
+ }
+
+ .rectangle_log {
+   width: 500px;
+   height: 85vh;
+   top: 100px;
+   left: 60%;
+   border-radius: 20px;
+   background-color: rgba(238, 233, 233, 0.9);
+   position: absolute;  
+   
+ }
+
+ .login_text {
+  color: #11175D;
+  font-size: 24px;
+  margin-bottom: 20px; 
+  margin-top: 50px;
+  margin-left: 50px;
+  font-weight: bold;
+}
+
+
+ 
+ @media (max-width: 768px) {
+   .rectangle_log {
+     width: 80%;
+     height: 92vh;
+     top: 100px;
+     left: 50%;
+     transform: translateX(-50%);
+   }
+ }
+ 
+ @media (max-width: 576px) {
+   .rectangle_log {
+     width: 90%;
+     height: 83vh;
+     top: 100px;
+     left: 50%;
+     transform: translateX(-50%);
+   }
+ }
+
